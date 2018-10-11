@@ -1,152 +1,21 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<!-- Mirrored from www.max9xs.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Oct 2016 15:28:46 GMT -->
+<!DOCTYPE html>
+<html>
 <head>
-<title id="title"></title>
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-<link rel="canonical" href="index.html"/>
-
-<meta property="og:site_name" content="sebin sunny"/>
-<meta property="og:title" content="Home"/>
-<meta itemprop="name" content="Home"/>
-<meta property="og:url" content="index.html"/>
-<meta itemprop="url" content="index.html"/>
-<meta property="og:type" content="article"/>
-<meta name="keywords" 
-         content="sebin sunny,koottappilly,sebinsunny,sunny,sebin,sebin-sunny">
-<meta name="description" content="Sebin Sunny is an interactive Mobile designer &amp; Mobile developer based in Kerala, India" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/animate-custom.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="theme/supersized.shutter.html" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/style1.css" type="text/css" media="screen" />
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
-<script type="text/javascript" src="theme/supersized.shutter.min.html"></script>
-<link href='http://fonts.googleapis.com/css?family=Raleway:500,300' rel='stylesheet' type='text/css'>
-
-<script type="text/javascript">
-			
-			jQuery(function($){
-
-				$('#title').addClass('animated fadeInDown');
-				$('#subTitle').addClass('animated pulse');
-				$('#line').addClass('animated bounceIn');
-				$('#content').addClass('animated pulse');
-				$('#sharingKit').addClass('animated fadeInUp');
-				$.supersized({
-					// Functionality
-					slide_interval          :   0,		
-					transition              :   1, 			
-					transition_speed		:	5000,		
-					// Components							
-					slide_links				:	'blank',	
-					slides 					:  	[			
-														{image : 'http://3.bp.blogspot.com/-tA2G5ySLJIk/Uoz1GytFevI/AAAAAAAAAUA/TQLzDwd5qqM/s1600/1.jpg', title : '', thumb : '', url : ''},
-														{image : 'http://3.bp.blogspot.com/-QZf-4DCEmcY/Uoz1G3ql9AI/AAAAAAAAAUI/539nn3zEb5U/s1600/2.jpg', title : '', thumb : '', url : ''},  
-														{image : 'http://4.bp.blogspot.com/-OVFyxVoYX8s/Uoz1G9s8jlI/AAAAAAAAAUE/5b4Vx9Wu8N0/s1600/3.jpg', title : '', thumb : '', url : ''},
-														{image : 'http://2.bp.blogspot.com/-yM8WEtGUWvU/Uoz1H6mIc4I/AAAAAAAAAUc/Sb3jbuVLt4o/s1600/4.jpg', title : '', thumb : '', url : ''},
-														{image : 'http://2.bp.blogspot.com/-xJheQtrhZXs/Uoz1IE33pdI/AAAAAAAAAUY/Dj3EZUPb8D0/s1600/5.jpg', title : '', thumb : '', url : ''},
-														{image : 'http://2.bp.blogspot.com/-3VEeciKUxgo/Uoz1I9IVLwI/AAAAAAAAAUg/wCRHUSCQ_Wk/s1600/6.jpg', title : '', thumb : '', url : ''},
-												]
-					
-				});
-		    });
-		    
-		</script>
-		
-	</head>
-	
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+var geturl;
+    geturl = $.ajax({
+    type: "GET",
+    url: 'https://accounts.spotify.com/authorize/?client_id=d5ca8539062845648a3e9ce8606aed59&response_type=code&redirect_uri=https://sebinsunny.com/spotify&scope=streaming%20user-read-birthdate%20user-read-email%20user-modify-playback-state%20user-read-private&show_dialog=true&state=34fFs29kd09',
+    success: function () {
+      console.log("done!"+ geturl.getAllResponseHeaders());
+    }
+  });
+</script>
+</head>
 <body>
-<style>
 
-</style>
-<div class='fullscreenDiv'>
-<div class="centerCover">
-<div class="center" id="center">
-<p class="content" id="content"></p>
-<p class="sharingKit" id="sharingKit">
-<span class="socialFeild"><a href="me@sebinsunny.com"><img src="img/envelope.png"/></a></span> 
-<span class="socialFeild"><a href="https://www.facebook.com/sebinsunny"><img src="facebook.png"/></a></span> 
-<span class="socialFeild"><a href="https://www.twitter.com/koottappillill"><img src="twitter.png"/></a></span> 
-<span class="socialFeild"><a href="http://www.soundcloud.com/sebin-sunny-3"><img src="img/soundcloud.png"/></a></span> 
-<span class="socialFeild"><a href="http://www.instagram.com/"><img src="img/instagram.png"/></a></span>
-</p>
-</div>
-</div>
-</div>​
-<img id="y" src="" class="imgs" alt="" width="600" height="600"/>
-<h1 class="title" id="title" align="center"></h1>
-<h1 class="title" id="art" align="center"></h1>
-
-
-
-<script src="https://sdk.scdn.co/spotify-player.js"></script>
-  <script>
-    window.onSpotifyWebPlaybackSDKReady = () => {
-      const token = 'BQBTE6m7n6JJrO3IXQcK2m5HdwDGsHBinG1k-TXfQMji5bFOtbQsjx1hRcnLEbXtiLm27z6VM_XPFSxvo_5udssVl876Sf3NlS6bzjZnjyNK5DaaZlzSB8_EG84pNmSCm7kmTztziaOyVBEbYC-kHl_flgWku--udEbH';
-      const player = new Spotify.Player({
-        name: 'Web Playback SDK Quick Start Player',
-        getOAuthToken: cb => { cb(token); }
-      });
-
-      // Error handling
-      player.addListener('initialization_error', ({ message }) => { console.error(message); });
-      player.addListener('authentication_error', ({ message }) => { console.error(message); });
-      player.addListener('account_error', ({ message }) => { console.error(message); });
-      player.addListener('playback_error', ({ message }) => { console.error(message); });
-
-      // Playback status updates
-      player.addListener('player_state_changed', state => { console.log(state);
-      str = JSON.stringify(state);
-      str1 = JSON.parse(str);
-      name = str1.track_window.current_track.album.name
-      artist = str1.track_window.current_track.artists[0].name
-      image=str1.track_window.current_track.album.images[2].url
-      document.getElementById("title").innerHTML = name;
-      document.getElementById("art").innerHTML = artist;
-      document.getElementById("y").src = image;
-      });
-
-      // Ready
-      player.addListener('ready', ({ device_id }) => {
-        console.log('Ready with Device ID', device_id);
-
-      });
-
-      // Not Ready
-      player.addListener('not_ready', ({ device_id }) => {
-        console.log('Device ID has gone offline', device_id);
-      });
-
-      // Connect to the player!
-      player.connect();
-    };
-  </script>
+<button>Send an HTTP GET request to a page and get the result back</button>
 
 </body>
-
-<!-- Mirrored from www.max9xs.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 08 Oct 2016 15:29:01 GMT -->
 </html>
-
